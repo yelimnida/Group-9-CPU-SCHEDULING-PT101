@@ -11,8 +11,8 @@ A console-based CPU Scheduling Simulator built with Python featuring a modular a
 
 ## Documentation & Deliverables
 
-* [**User Guide (PDF)**](documents/User_Guide.pdf) — Console execution instructions, interactive menu guide, input rules, and output interpretation.
-* [**Testing Evidence (PDF)**](documents/Testing_Evidence.pdf) — Verified test cases comparing expected vs. actual simulation outputs and boundary checks.
+* [**User Guide (PDF)**](documents/User Guide.pdf) — Console execution instructions, interactive menu guide, input rules, and output interpretation.
+* [**Testing Evidence (PDF)**](documents/Testing Evidence.pdf) — Verified test cases comparing expected vs. actual simulation outputs and boundary checks.
 
 ## Repository Structure
 
