@@ -12,7 +12,7 @@ A console-based CPU Scheduling Simulator built with Python featuring a modular a
 ## Documentation & Deliverables
 
 * [**User Guide (`USER_GUIDE.md`)**](USER_GUIDE.md) — Setup requirements, interactive menu controls, input rules, and output interpretation.
-* [**Testing Evidence (`TESTING.md`)**](TESTING.md) — Verified test cases (`TC1`–`TC8`) comparing expected vs. actual console outputs and input validation checks.
+* [**Testing Evidence (`TESTING.md`)**](TESTS.md) — Verified test cases (`TC1`–`TC8`) comparing expected vs. actual console outputs and input validation checks.
 
 ## Repository Structure
 
