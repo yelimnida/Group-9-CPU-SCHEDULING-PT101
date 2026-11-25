@@ -1,18 +1,18 @@
 # Group 9 — CPU Scheduling Simulator (PT 101)
 
-A console-based CPU Scheduling Simulator built with Python featuring a modular architecture that separates scheduling logic from the command-line user interface.
+A console-based CPU Scheduling Simulator built with Python featuring a modular architecture that separates core scheduling algorithms from the command-line user interface.
 
 ## Group 9 Members
 
-* **Calingasan, Yael John P.**
+* **Calingasan, Yael John**
 * **Mercado, Jove**
 * **Panganiban, Jhanel**
 * **Panganiban, Kerk Daniel**
 
 ## Documentation & Deliverables
 
-* [**User Guide (PDF)**](documents/User_Guide.pdf) — Console execution instructions, interactive menu guide, input rules, and output interpretation.
-* [**Testing Evidence (PDF)**](documents/Testing_Evidence.pdf) — Verified test cases comparing expected vs. actual simulation outputs and boundary checks.
+* [**User Guide (`USER_GUIDE.md`)**](USER_GUIDE.md) — Setup requirements, interactive menu controls, input rules, and output interpretation.
+* [**Testing Evidence (`TESTING.md`)**](TESTING.md) — Verified test cases (`TC1`–`TC8`) comparing expected vs. actual console outputs and input validation checks.
 
 ## Repository Structure
 
@@ -24,11 +24,10 @@ Group-9-CPU-SCHEDULING-PT101/
 │   ├── sjf.py               # Shortest Job First (Non-Preemptive)
 │   ├── srtf.py              # Shortest Remaining Time First (Preemptive)
 │   └── round_robin.py       # Round Robin (Preemptive with Time Quantum)
-├── documents/
-│   ├── User_Guide.pdf       # Execution steps, input rules, and output guide
-│   └── Testing_Evidence.pdf # Test cases with expected vs. actual results
 ├── main.py                  # Console application entry point and menu interface
 ├── README.md                # Project overview and documentation links
+├── USER_GUIDE.md            # Console execution and usage manual
+├── TESTING.md               # Test cases and verification outputs
 └── .gitignore               # Ignores __pycache__/ and local temporary files
 ```
 
@@ -37,17 +36,16 @@ Group-9-CPU-SCHEDULING-PT101/
 ### Prerequisites
 
 * **Python 3.10+** installed on Windows, macOS, or Linux.
-* Uses only the Python standard library—no external third-party packages are required.
+* Uses only the Python standard library—no external packages are required.
 
 ### How to Run
 
-1. Clone or download this repository and open a terminal inside the `Group-9-CPU-SCHEDULING-PT101` directory.
-2. Launch the simulator:
+1. Clone or download this repository and open a terminal inside `Group-9-CPU-SCHEDULING-PT101`.
+2. Run the simulator:
    ```bash
    python main.py
    ```
-3. Enter the number of processes (`1`–`10`) along with each process's **Arrival Time (`AT >= 0`)** and **Burst Time (`BT >= 1`)**.
-4. Use the interactive menu to run a simulation:
+3. Enter the number of processes (`1`–`10`) along with each process's **Arrival Time (`AT >= 0`)** and **Burst Time (`BT >= 1`)**, then select an option from the menu:
    * **`[1]`** FCFS (First-Come, First-Served)
    * **`[2]`** SJF (Non-Preemptive Shortest Job First)
    * **`[3]`** SRTF (Preemptive Shortest Remaining Time First)
